@@ -1,8 +1,8 @@
 lst1 = ["Mumbai","Pune","Delhi","Patna"]
 for city in lst1:
-           print(city)
+   print(city)
            
-print("\n")
+   print("\n")
 
 lst2 = ["python","perl","C","C++","Java"]
 for lang in lst2:
