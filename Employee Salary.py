@@ -15,7 +15,6 @@ class Company:
         self.designation = input("Enter Employee Designation: ")
         self.salary = int(input("Enter Employee Salary: "))    
 
-
 class Basic_salary:
     def __init__(self):
         self.TA = ((18*self.salary)/100)
@@ -23,7 +22,6 @@ class Basic_salary:
         self.HRF = ((25*self.salary)/100)
         self.EPF = ((10*self.salary)/100)
         self.net_salary = self.salary + self.TA + self.DA + self.HRF - self.EPF
-
 
 class Calculation(Company, Basic_salary):
     def __init__(self):
@@ -35,7 +33,6 @@ class Calculation(Company, Basic_salary):
         print("EPF:", self.EPF)
         print("Net Salary:", self.net_salary)
       
-
 Calculation()
 
 
